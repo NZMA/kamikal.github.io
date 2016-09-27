@@ -21,16 +21,10 @@
 }
 
 .bg-div {
-	height: 60%;
+	height: 55%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.context-div {
-	margin-top: 0px;
-	height: 10%;
-	background-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -39,7 +33,7 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100%;
-	/* background-position: -100px -150px; */
+	font-family: 'robotolight';
 }
 
 h1 {
@@ -49,7 +43,6 @@ h1 {
 	color: white;
 	text-align: center;
 }
-
 
 h2 {
 	font-size: 30px;
@@ -65,112 +58,104 @@ a {
 	font-family: 'robotolight';
 }
 
-
-nav ul ul {
-	display: none;
-	float: left;
-
+#parent {
+	width: 800px;
+	height: 298px;
+	position: absolute;
+	margin: auto;
+	bottom: 20px;
+	right: 0; left: 0;
 }
 
-nav ul li:hover > ul {
-	display: block;
-		-webkit-transition: color .2s ease;
-		-moz-transition: color .2s eae;s
-		-ms-transition: color .2s ease;
-		-o-transition: color .2s ease;
-		transition: color .2s ease;
-
+#one {
+	position: absolute;
+	margin: auto;
+	top: -40px;
+	left: 0;
 }
 
-nav ul {
-	background:;
-	padding: 0 0;
-	border-radius: 0px;  
-	list-style: none;
-	position: relative;
-	display: inline-table;
-	-webkit-transition: all 0.25s ease-out;
-	-moz-transition: all 0.25s ease-out;
-	-ms-transition: all 0.25s ease-out;
-	-o-transition: all 0.25s ease-out;
-  	transition: all 0.25s ease-out;
-}
-	
-nav ul:after {
-	content: ""; clear: both; display: block;
-	float: left;
+#two {
+	position: absolute;
+	margin: auto;
+	top: -40px;
+	left: 200px;
 }
 
-nav ul li {
-	float: left;
-	min-width: 200px;
-	max-width: 200px;
-	background: rgba(230,230,230,0.5);
-	-webkit-transition: color 0.25s ease;
-	-moz-transition: color 0.25s ease;
-	-ms-transition: color 0.25s ease;
-	-o-transition: color 0.25s ease;
-  	transition: color 0.25s ease;
-}
-nav ul li:hover {
-
-}
-nav ul li:hover a {
-	color: #585858;
-	/* background: rgba(164,164,164,0.5); */
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-ms-transition: all .2s ease;		
-	-o-transition: all .2s ease;
-	transition: all .2s ease;
-}
-	
-nav ul li a {
-	display: block; padding: 25px 40px;
-	color: #848484; text-decoration: none;
-}
-	
-nav ul li a:hover {
-	-webkit-transition: color .2s ease;
-	-moz-transition: color .2s ease;
-	-ms-transition: color .2s ease;
-	-o-transition: color .2s ease;
-	transition: color .2s ease;
+#three {
+	position: absolute;
+	margin: auto;
+	top: -40px;
+	left: 400px;
 }
 
-nav ul ul {
-	position: absolute; top: 100%;
-	float: none;
-	-webkit-transition: color .4s ease;
-	-moz-transition: color .4s ease;
-	-ms-transition: color .4s ease;
-	-o-transition: color .4s ease;
-	transition: color .4s ease;
+#four {
+	position: absolute;
+	margin: auto;
+	top: -40px;
+	left: 600px;
 }
-nav ul ul li {
-	float: none;
-	min-width: 200px;
+
+.title {
+	position: absolute;
+	font-size: 18px;
+	margin-top: 0;
+	width: 200px; height: 50px;
+	z-index: 1;
+	background: #fff;
+	text-align: center;
+}
+
+.name {
+	margin-top: 13;
+}
+
+.link {
+	position: absolute;
+	margin: auto;
+
+	width: 200;
+	height: 0;
+
 	background: rgba(132,132,132,0.5);
-}
-nav ul ul li a {
-	padding: 15px 40px;
-	color: #2E2E2E;
-}	
+	opacity: 0.75;
 
-nav ul ul li a:hover {
+	transition: 0.5s ease;
+}
+
+.link a {
+	display: none;
+	padding: 12px;
+	padding-top: 12;
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+	width: auto;
+	transition: 0.2s ease;
+}
+
+.link:hover {
+	height: 322px;
+	opacity: 0.8;
+}
+
+.link:hover a {
+	display: block;
+}
+
+.dropleft {
+	position: absolute;
+	right: 0; left: 0; bottom: 0px; top: 6px;
+	text-align: center;
+	height: ;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.dropLeft a:hover {
 	background: rgba(0,0,0,0.5);
-	color: #D8D8D8;
 }
 
-
-/* code for dropdown menu based on http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu */
-
-.main-img {
-	height: 256px;
-	float: middle;
-}
-
-input, textarea, select, button {
+.search {
 	width: 800px;
 	height: 50px;
  	margin-top: 0;

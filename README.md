@@ -54,7 +54,9 @@ this applies to pretty much all my pages.
 
 ~~      ~~
 
-'tab3' only works on 1920x1080 and higher. 1440x900 may work, i've not been able to try it.
+ANY PAGE THAT USES THE 'dumb_shit' DROPDOWN METHOD (tab3, dumb_shit, dumb_shit2 waytoominimal) ALL NEED TO BE MANUALLY SIZED. it's not a perfect system but it works better than another dropdown i was using. if you're list of links is too long it won't fit, if it's too short it will have whitespace. look at how big the link 'containers' are and fit manually, taking in to account the size of '.link' and '.title'.
+
+'tab3' only works on 1920x1080 and higher. 1440x900 may work, i've not been able to try it. 
 
 'tab5' is based on 'start page 2' by tayumpee https://github.com/tayumpee/start_page2_firefox_and_chrome as was a trend in /stpg/ for a while after it was posted. 'tab7' is also based on this.
 
