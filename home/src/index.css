@@ -3,6 +3,10 @@
 	src: url('Montserrat-Regular.otf');
 }
 
+* {
+	outline: none;
+}
+
 body {
 	margin: 0;
 
