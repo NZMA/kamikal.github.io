@@ -3,12 +3,13 @@
 	src: url('Montserrat-Regular.otf');
 }
 
+html {
+	background: url('https://cdn.discordapp.com/attachments/151326367911378954/230222649828179968/554.gif') #9ca8fd no-repeat fixed;
+	background-position: 100% bottom;
+}
+
 body {
-	margin: 0;
-
-	background: #E6E6E6;
 	font-family: 'Montserrat', sans-serif;
-
 	text-align: center;
 }
 
