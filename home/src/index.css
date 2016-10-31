@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+
 @font-face {
 	font-family: 'Montserrat';
 	src: url('Montserrat-Regular.otf');
@@ -55,4 +57,5 @@ a:hover {
 #headimage:hover {
 	box-shadow: 0px 0px 12px #585858;
 	transform: scale(1.05);
+	transform: rotate(15deg);
 }
