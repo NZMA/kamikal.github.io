@@ -59,4 +59,7 @@ $(document).ready(function() {
   $('#dumb_shit').click(function() {
     $('#otherbox').css('background-image', 'url(src/images/fullsize/dumb_shit.png)');
   });
+  $('#newww').click(function() {
+    $('#otherbox').css('background-image', 'url(src/images/fullsize/newww.jpg)');
+  });
 });
