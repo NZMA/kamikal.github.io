@@ -66,12 +66,6 @@ header {
 	background: #000015;
 }
 
-#headimage:hover {
-	box-shadow: 0px 0px 12px #585858;
-	transform: scale(1.05);
-	transform: rotate(15deg);
-}
-
 .ico {
 	width: 32px;
 	height: 32px;
