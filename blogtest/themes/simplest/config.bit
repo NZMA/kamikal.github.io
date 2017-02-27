@@ -1,0 +1,16 @@
+<?php
+
+$theme = array
+(
+	'name'=>'simplest',
+	'description'=>'',
+	'notes'=>'',
+	'author'=>'Kayla',
+	'version'=>'1.0',
+	'last_update'=>'27/02/2016', // dd/mm/yyyy
+	'url'=>'', // http://xxxxxxxxxxxxx
+	'template'=>array('blog'=>'default.bit', 'post'=>'default.bit', 'page'=>'default.bit'),
+	'version_supported'=>array('4.0','4.0.1') // Nibbleblog version supported
+);
+
+?>
