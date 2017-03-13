@@ -8,34 +8,17 @@
 }
 
 body {
-	background: url('images/1457252998804.jpg') #7ea8a0 no-repeat fixed;
-	background-size: 100%;
-}
-
-#box {
-	position: absolute;
-	margin: auto;
-	top: 0; bottom: 0;
-	left: 0; right: 0;
-
-	width: 100%;
-	height: 100%;
-
-
-	opacity: 1;
+	background: /*url('images/1457252998804.jpg')*/ #D8D8D8 no-repeat fixed;
+	background-size: cover;
+	background-position: center 0;
 
 	text-align: center;
-	font-family: 'roboto';
+	color: #000 !important;
 }
 
 #screenboxmain {
-	position: absolute;
-	margin: auto;
 	top: 420px; bottom: 0;
 	left: 0; right: 0;
-
-	width: 100%;
-	height: 100%;
 
 	opacity: 1;
 
@@ -44,11 +27,8 @@ body {
 }
 
 .screenbox {
-	width: 256;
-	height: 144;
+
 	background: #000;
-	display: inline-block;
-	position: relative;
 	opacity: 0.7;
 
 	border: #000 2px solid;
@@ -65,14 +45,18 @@ p {
 }
 
 a {
-	text-decoration: none;
-	color: #fbf1eb;
+	text-decoration: underline;
+	color: #000 !important;
 }
 
 a:hover {
 	text-decoration: underline;
 }
 
-figure {
-	display: inline-block;
+.columns {
+	margin-bottom: 12px;
+}
+
+img {
+	width: 100%
 }
